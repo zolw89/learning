@@ -131,6 +131,7 @@ ul a{
 
 .btn-large{
     padding: 16px;
+    display: inline-block;
 }
 .btn-large a {
     font-size: 20px;
@@ -244,3 +245,142 @@ margin: 20px 0;
     font-size: 25px;
 }
 
+.main3 {
+    background: 
+    linear-gradient(
+        rgba(29, 107, 158, 0.83), 
+        rgba(29, 107, 158, 0.83)
+    ),
+    url('./img/main3-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.yellow {
+    display: flex;
+    border-radius: 30px;
+    background-color: #E8C12F;
+    margin: 30px 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.yellow-reverse {
+    flex-direction: row-reverse;
+}
+
+.korki-img {
+    max-height: 250px;
+    padding: 30px 0;
+}
+
+.korki-text {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.korki-text p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.box-2 {
+    display: flex;
+    padding-top: 50px;
+}
+.btn-center {
+    display: block;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #52DCE8;
+    transition: 1s;
+}
+
+.btn-blue:hover {
+    transform: scale(1.2);
+}
+
+.main4 {
+    background-image: url('./img/bg-left-3.png'),
+        url('./img/shapes-cirlces.png');
+    background-position: top right,
+        top left;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.div-60 {
+    width: 60%;
+}
+
+.div-40 {
+    width: 40%;
+}
+.img-woman {
+    max-width: 380px;
+}
+
+.div-circles {
+    display: flex;
+    text-align: center;
+}
+
+.div-circles-3 {
+    width: 33%;
+    margin: 20px 10px;
+}
+
+.div-circles-green {
+    background-color: #56BCB8;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.div-circles-yellow {
+    background-color: #FFC50E;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.div-circles-pink {
+    background-color: #DA0E86;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.icon-style {
+    color: white;
+    font-size: 50px;
+}
+
+.circle-text{
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.text-white{
+    color: white;
+}
+
+.div-60 p {
+    padding-bottom: 50px;
+}
+
+.main3-p {
+    color: #656A6F;
+    font-size: 18px;
+    line-height: 1.4;
+    padding-top: 50px;
+}
